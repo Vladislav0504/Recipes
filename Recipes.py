@@ -1,4 +1,4 @@
-from urllib.request import urlopen, urlretrieve
+from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import json
 import re
