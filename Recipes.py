@@ -73,7 +73,7 @@ Recipe = {
 'Ingredients': ingredients,
 'Method': steps}
 
-if ind == True:
+if ind:
   Recipe['RECIPE TIPS'] = addition
 
 Recipe = re.sub(r'\\u00a0', ' ', json.dumps(Recipe))
